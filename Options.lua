@@ -9,9 +9,9 @@ BarNone.defaults = {
 		rage = { 1.0, 0.0, 0.0, 1.0 }, -- Red
 		focus = { 1.0, 0.5, 0.25, 1.0 }, -- Orange
 		energy = { 1.0, 1.0, 0.0, 1.0 }, -- Yellow
+		runicPower = { 0.0, 0.82, 1.0, 1.0 }, -- Cyan
 		astralPower = { 0.0, 0.4, 0.9, 1.0 }, -- Light Blue
 		insanity = { 0.7, 0.4, 0.9, 1.0 }, -- Purple
-		runicPower = { 0.0, 0.82, 1.0, 1.0 }, -- Cyan
 		fury = { 0.788, 0.259, 0.992, 1.0 }, -- Purple
 	},
 }
@@ -387,7 +387,6 @@ function BarNone:InitializeOptions()
 	-- #region Misc sub panel
 	local panel_misc = CreateFrame("Frame")
 	panel_misc.name = "Misc"
-	-- We'll use Settings.RegisterAddOnCategory with the parent category instead of panel_misc.parent
 	RegisterSubPanel(self.panel_main, panel_misc)
 
 	-- Add a title
