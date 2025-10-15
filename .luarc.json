@@ -1,0 +1,17 @@
+{
+  "workspace.library": [
+    "~/.local/share/nvim/warcraft-api"
+  ],
+  "runtime.version": "LuaJIT",
+  "hint.enable": true,
+  "diagnostics": {
+    "globals": [
+      "SlashCmdList",
+      "BarNone",
+      "Settings",
+      "BarNoneDB",
+      "ColorPickerFrame",
+      "OpacitySliderFrame"
+    ]
+  }
+}

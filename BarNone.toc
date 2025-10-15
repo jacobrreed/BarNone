@@ -1,0 +1,9 @@
+## Interface: 110100
+## Version: 1.0.0
+## Title: BarNone
+## Notes: Resource and Power bars for all specs with a focus on a default UI look.
+## Author: NeonVoid
+## SavedVariables: BarNoneDB
+
+Core.lua
+Options.lua
